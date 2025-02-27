@@ -1,0 +1,87 @@
+.container {
+    padding-top: 20px;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  
+  .nav-link .mr-2 {
+    margin-right: 8px;
+  }
+  
+  .card {
+    margin-top: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .nav {
+    border-right: 2px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .nav-link {
+    padding: 10px 20px;
+  }
+  
+  .form-row .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  /* No results section styling */
+.no-results {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .no-results-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .no-results p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c757d;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table-bordered {
+    border: 1px solid #ddd;
+  }
+  
+  .table-bordered th, .table-bordered td {
+    border: 1px solid #ddd;
+  }
+  

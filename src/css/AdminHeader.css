@@ -1,0 +1,25 @@
+/* AdminLink.css */
+
+/* Style for the link itself */
+.admin-link {
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* White text color */
+    background-color: #4CAF50; /* Green background color */
+    padding: 12px 24px; /* Padding for the link */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Keep it in the block style but inline */
+    transition: all 0.3s ease; /* Smooth transition effect for hover */
+    font-weight: 600; /* Make the font a bit bolder */
+  }
+  
+  .admin-link:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    color: #fff; /* Keep the text color white */
+    transform: scale(1.05); /* Slight scale increase on hover */
+  }
+  
+  .admin-link h4 {
+    margin-bottom: 0; /* Remove any bottom margin for h4 */
+    font-size: 1.2rem; /* Size of the heading */
+  }
+  

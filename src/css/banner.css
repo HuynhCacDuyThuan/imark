@@ -1,0 +1,43 @@
+/* Ensure both columns have equal height */
+.custom-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .border-shadow-wrapper {
+    border: 2px solid #ccc;  /* Border color and thickness */
+    border-radius: 10px;  /* Optional: rounded corners */
+    padding: 10px;  /* Optional: padding between card and border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  .custom-card {
+    margin-bottom: 20px; /* Add margin to space out the cards */
+    height: 100%; /* Allow the card to take up full height of the column */
+  }
+  
+  .custom-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .image-container img {
+    flex: 1;
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+  }
+  
+ 
+  
+  .col-md-7,
+  .col-md-5 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  

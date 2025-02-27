@@ -1,0 +1,109 @@
+.footer-top-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .footer-top-block-item {
+    text-align: center;
+  }
+  .footer-img {
+    width: 100%;
+    height: auto;
+    max-width: 50px;  /* Adjust this value to make the images smaller */
+    max-height: 50px; /* Adjust this value to control the height */
+    object-fit: contain; /* Ensures the image doesn't get distorted */
+    margin: 0 auto; /* Centers the image */
+  }
+  .footer-top-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .footer-top-block-item {
+    text-align: center;
+    border-top: 3px solid red; /* Red border on top of each section */
+    padding-top: 10px; /* Space between the content and the border */
+  }
+  
+  
+  
+  .about-us {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .offer-amount {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  
+  .about-us {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .offer-amount {
+    font-size: 12px;
+    color: #555;
+  }
+  .footer-content-block {
+    background-color: #000;
+    padding: 40px 0;
+  }
+  
+  .footer-content-section {
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo-img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-link-winmart,
+  .footer-link {
+    font-size: 14px;
+    color: #6c757d;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .connect-info a {
+    margin-right: 15px;
+  }
+  
+  .connect-icon {
+    font-size: 24px;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .connect-icon:hover {
+    color: #007bff;
+  }
+  
+  .footer-img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  

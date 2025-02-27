@@ -1,0 +1,63 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #ddd;  /* Optional: border for card */
+    padding: 15px;           /* Optional: spacing inside the card */
+    background-color: #fff;  /* Optional: background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+  }
+  
+  .product-card h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .product-card .btn {
+    margin-top: auto;  /* Push button to the bottom */
+  }
+  
+  .product-image {
+    width: 100%; /* Chiều rộng ảnh chiếm 100% của container */
+    height: 200px; /* Chiều cao cố định, bạn có thể thay đổi giá trị này */
+    object-fit: cover; /* Đảm bảo ảnh không bị vỡ và vẫn giữ tỷ lệ */
+    object-position: center; /* Đảm bảo ảnh luôn căn giữa nếu phần ảnh bị cắt */
+  }
+  .header-title {
+    background: #ffff;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 24px;
+  
+  }
+
+  .iOtYzK {
+    background-image: linear-gradient(to right, rgb(255, 62, 52), rgb(255, 203, 66));
+    display: flex
+;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 12px 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin: 16px 0px;
+}
+  
+  
+  
+  
+  .col-md-2,
+  .col-sm-6 {
+    display: flex;
+    flex-direction: column;
+  }
+  
